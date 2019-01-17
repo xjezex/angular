@@ -28,4 +28,11 @@ export class ProductoService{
 
 	}
 
+/*addProducto(producto: Producto): Observable<Producto>{
+		return this._http.post<Producto>(this.url+'producto', producto, httpOptions)
+			.pipe(
+				catchError(this.handleError('addProducto', producto))
+			);
+	}*/
+
 }
